@@ -2,7 +2,7 @@
 
 ## Project Description
 
-This is a demo project to that simulates a simple shopping store.
+This is a demo project that simulates a simple shopping store.
 There are 2 major routes: Admin and Customer
 
 ### Admin

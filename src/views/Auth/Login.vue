@@ -113,7 +113,8 @@ export default {
                 if (this.password == data[0].password) {
                   localStorage.setItem("userProfile", JSON.stringify(data[0]));
                   toast.success("Login Successfull");
-                  this.$router.push("/admin");
+                  // this.$router.push("/admin");
+                  window.location.pathname = "/admin";
                 } else {
                   this.error = "correct guy but check your password";
                   toast.warning("Invalid Password!");
@@ -122,6 +123,7 @@ export default {
                 if (this.password == data[0].password) {
                   localStorage.setItem("userProfile", JSON.stringify(data[0]));
                   this.$router.push("/");
+                  window.location.pathname = "/";
                 } else {
                   this.error = "correct guy but check your password";
                   toast.warning("Invalid Password!");

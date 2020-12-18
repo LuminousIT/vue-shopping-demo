@@ -48,21 +48,8 @@
       "price": "6000",
       "id": "7",
       "img": "../src/assets/img/iphonex.jpg"
-    },
-    {
-      "name": "new",
-      "description": "this phone was just added ",
-      "price": "2324",
-      "id": 8.409052596849921,
-      "img": "hey"
-    },
-    {
-      "name": "as",
-      "description": "sdferfewfrewf",
-      "price": "23",
-      "id": 6.631065062263616,
-      "img": "hey"
     }
+   
   ],
   "users": [
     {
@@ -72,24 +59,11 @@
       "email": "johndoe@joe.com"
     },
     {
-      "fullname": "Nikita James",
-      "username": "customer",
-      "password": "123456",
-      "email": "nikitaJames@niki.com"
-    },
-    {
       "username": "lumi",
       "password": "1234567",
       "email": "lumi@g.com",
       "fullname": "Olumide Luminous",
       "id": 9.225431702628931
-    },
-    {
-      "username": "cat",
-      "password": "123456",
-      "email": "catfish@g.com",
-      "fullname": "catfish",
-      "id": 2.8187396783595786
     }
   ]
 }
