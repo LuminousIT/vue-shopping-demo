@@ -60,6 +60,9 @@
   </div>
 </template>;
 
+
+
+
 <script>
 import { useToast } from "vue-toastification";
 
@@ -106,8 +109,7 @@ export default {
           )
           .then((data) => {
             this.loading = false;
-            // console.log("username ", this.username);
-            // console.log("username2 ", data);
+
             if (data.length) {
               if (data[0].username == "admin") {
                 if (this.password == data[0].password) {
@@ -142,4 +144,6 @@ export default {
     },
   },
 };
+
+// to start the network: type command npx json-server --watch data/db.json
 </script>

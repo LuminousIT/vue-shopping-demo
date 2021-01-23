@@ -12,44 +12,29 @@
       "description": "this is an iphone 6",
       "price": 500,
       "id": "2",
-      "img": "../src/assets/img/iphonex.jpg"
+      "img": "../src/assets/img/ip2.jpg"
     },
     {
       "id": "3",
-      "img": "../src/assets/img/iphonex.jpg",
+      "img": "../src/assets/img/ip3.jpg",
       "name": "iPhone 7",
       "price": 3000,
       "description": "iPhone X is a very wonderful phone"
     },
     {
+      "name": "Samsung editable",
+      "description": "iphone X is editable",
+      "price": "7500",
       "id": "4",
-      "img": "../src/assets/img/iphonex.jpg",
-      "name": "Samsung",
-      "price": 6000,
-      "description": "iPhone X is a very wonderful phone"
+      "img": "../src/assets/img/iphone.jpg"
     },
     {
-      "id": "5",
-      "img": "../src/assets/img/iphonex.jpg",
-      "name": "iPhone 12",
-      "price": 4000,
-      "description": "iPhone X is a very wonderful phone"
-    },
-    {
-      "id": "6",
-      "img": "../src/assets/img/iphonex.jpg",
-      "name": "Macbook Air",
-      "price": 4000,
-      "description": "iPhone X is a very wonderful phone"
-    },
-    {
-      "name": "iPhone X",
-      "description": "iPhone X is a very wonderful phone",
-      "price": "6000",
-      "id": "7",
-      "img": "../src/assets/img/iphonex.jpg"
+      "name": "test product",
+      "description": "this product is for sale",
+      "price": "5000",
+      "id": 2.4029373724890615,
+      "img": "hey"
     }
-   
   ],
   "users": [
     {
@@ -64,6 +49,23 @@
       "email": "lumi@g.com",
       "fullname": "Olumide Luminous",
       "id": 9.225431702628931
+    },
+    {
+      "username": "admin",
+      "password": "1234567",
+      "id": 10.225431702628931
+    },
+    {
+      "username": "lumi",
+      "password": "1234567",
+      "id": 11.225431702628931
+    },
+    {
+      "username": "bruno",
+      "password": "12345678",
+      "email": "bruno@g.com",
+      "fullname": "test username",
+      "id": 2.024735358589779
     }
   ]
 }
